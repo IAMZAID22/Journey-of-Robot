@@ -245,7 +245,7 @@ textSize(35);
     fill("white");
     text("You Win",2600,250);
   }
-  if(pla.x>=500){
+  if(pla.x>=600){
     textSize(35);
     fill("white");
     text("You Lost",2600,250);
