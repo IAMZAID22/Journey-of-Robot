@@ -271,6 +271,7 @@ textSize(35);
   pla.collide(bo3);
   pla.collide(mp7);
   pla.collide(mp8);
+  pla.collide(e);
   dg.add(d1);
   dg.add(d2);
   dg.add(d3);
