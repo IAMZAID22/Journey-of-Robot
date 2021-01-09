@@ -269,7 +269,8 @@ textSize(35);
   pla.collide(bo1);
   pla.collide(bo2);
   pla.collide(bo3);
-  
+  pla.collide(mp7);
+  pla.collide(mp8);
   dg.add(d1);
   dg.add(d2);
   dg.add(d3);
@@ -279,9 +280,3 @@ textSize(35);
   dg.add(d7);
 drawSprites();
 }
-
-
-
-
-
-
