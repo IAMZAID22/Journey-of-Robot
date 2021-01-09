@@ -219,6 +219,7 @@ textSize(35);
   if(mp5.y>=400){
     mp5.velocityY = -4;
   }
+  
    if(mp5.y<=100){
     mp5.velocityY = 4;
   }
