@@ -171,11 +171,11 @@ textSize(35);
     pla.velocityY = pla.velocityY + 0.9;
   
   if(keyDown("a") || keyDown("left")){
-    pla.x = pla.x -4;
+    pla.x = pla.x -6;
     pla.addImage(plal);
   }
   if(keyDown("d") || keyDown("right")){
-    pla.x = pla.x +4;
+    pla.x = pla.x +6;
     pla.addImage(plar);
    }
   if(mp1.x>=2000){
