@@ -214,12 +214,23 @@ textSize(35);
     pla.x = mp3.x;
   }
   if(pla.isTouching(mp4)){
-    pla.x = mp4.x
+   pla.x = mp4.x
   }
   if(mp5.y>=400){
     mp5.velocityY = -4;
   }
-  
+  if(pla.isTouching(mp5)){
+    pla.x = mp5.x
+  }
+  if(pla.isTouching(mp6)){
+    pla.x = mp6.x
+  }
+   if(pla.isTouching(mp7)){
+    pla.x = mp7.x
+  }
+  if(pla.isTouching(mp8)){
+    pla.x = mp8.x
+  }
    if(mp5.y<=100){
     mp5.velocityY = 4;
   }
